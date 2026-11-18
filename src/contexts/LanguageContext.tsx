@@ -1,7 +1,7 @@
 import React, { createContext, useState, useContext, useEffect, useMemo, ReactNode } from 'react';
 import { getLangNameFromCode } from 'language-name-map';
 import { navigatorConfig } from '../utils';
-import { getAvailableLocales } from '../utils/localize';
+import { getAvailableLocales, getLocale } from '../utils/localize';
 import localeEmoji from 'locale-emoji';
 import useStorage from '../hooks/use-storage';
 import I18n from 'react-native-i18n';
@@ -10,6 +10,8 @@ I18n.fallbacks = true;
 I18n.translations = {
     ...getAvailableLocales(),
 };
+// Use the saved language from the first render; the device language is only the library's starting value.
+I18n.locale = getLocale();
 
 interface LanguageContextProps {
     locale: string;
