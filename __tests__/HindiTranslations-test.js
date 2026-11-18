@@ -2,9 +2,12 @@ import en from '../translations/en.json';
 import hi from '../translations/hi.json';
 
 jest.mock('../src/utils/storage', () => ({ getString: jest.fn(() => undefined) }));
+// config/default.js is the real file; only the environment lookups it needs are stubbed (no env values set).
+jest.mock('../src/utils/config', () => ({ config: (key, fallback) => fallback, mergeConfigs: (a) => a, toBoolean: Boolean }));
 jest.mock('../src/utils', () => ({
     get: jest.fn(),
-    navigatorConfig: jest.fn((key, fallback) => (key === 'availableLocales' ? ['en', 'hi'] : fallback)),
+    toArray: (value) => (Array.isArray(value) ? value : String(value).split(',')),
+    navigatorConfig: jest.fn((key, fallback) => (key === 'availableLocales' ? require('../config/default').DefaultConfig.availableLocales : fallback)),
 }));
 jest.mock('react-native-i18n', () => {
     const I18n = { locale: 'en', fallbacks: true, translations: {} };
@@ -37,6 +40,24 @@ describe('Hindi translations', () => {
             expect(text).not.toMatch(/fleetbase/i);
             expect(text).not.toMatch(/[०-९]/);
         });
+    });
+
+    test('the shipped config offers Hindi', () => {
+        expect(require('../config/default').DefaultConfig.availableLocales).toContain('hi');
+    });
+
+    test('the location notice names the same recipient in English and Hindi, and never Fleetbase', () => {
+        const keys = ['enableLocationPrompt', 'backgroundRationaleTitle'];
+        keys.forEach((key) => {
+            expect(en.LocationPermissionScreen[key]).toContain('Alvora Vector');
+            expect(hi.LocationPermissionScreen[key]).toContain('Alvora Vector');
+            expect(en.LocationPermissionScreen[key]).not.toMatch(/fleetbase/i);
+        });
+    });
+
+    test('Hindi says one hour as "घंटा"', () => {
+        expect(hi.Format.hoursShort.one).toBe('{{count}} घंटा');
+        expect(hi.Format.hoursShort.other).toBe('{{count}} घंटे');
     });
 
     test('localize exposes Hindi and translate returns Hindi text', () => {

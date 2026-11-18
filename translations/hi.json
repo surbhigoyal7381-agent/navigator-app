@@ -86,7 +86,7 @@
         "envMissing": "सेटिंग में नहीं मिला!"
     },
     "DriverReportScreen": {
-        "issues": "समस्याएं",
+        "issues": "समस्या",
         "issue": "समस्या",
         "fuelReports": "फ्यूल रिपोर्ट",
         "fuelReport": "फ्यूल रिपोर्ट",
@@ -107,7 +107,7 @@
     },
     "LocationPermissionScreen": {
         "enableLocationServices": "लोकेशन की जानकारी",
-        "enableLocationPrompt": "Alvora Navigator आपकी सही लोकेशन लेता है, ताकि आपकी कंपनी के डिस्पैचर और टीम ऑर्डर की प्रगति और आपकी लोकेशन देख सकें। ऐप बंद होने पर या इस्तेमाल में न होने पर भी लोकेशन ली जाती है। जब तक आप ऑनलाइन हैं तब तक लोकेशन ली जाती है और सुरक्षित तरीके से Alvora Vector को भेजी जाती है।",
+        "enableLocationPrompt": "Alvora Vector आपकी एकदम सटीक लोकेशन लेता है, ताकि आपकी कंपनी के डिस्पैचर और टीम रियल-टाइम में आपको ट्रैक कर सकें और ऑर्डर की प्रगति देख सकें। जब तक आप ऑनलाइन हैं, ऐप बंद होने या इस्तेमाल में न होने पर भी आपकी लोकेशन ली जाती है और सुरक्षित तरीके से Alvora Vector को भेजी जाती है।",
         "shareAndContinue": "लोकेशन की इजाज़त दें और आगे बढ़ें",
         "privacyPolicy": "प्राइवेसी पॉलिसी",
         "permissionNeededTitle": "लोकेशन की इजाज़त चाहिए",
@@ -115,7 +115,7 @@
         "permissionDeniedPrompt": "साइन इन करने से पहले लोकेशन की इजाज़त ज़रूरी है। क्या आप अभी इजाज़त देना चाहते हैं?",
         "locationBlockedPrompt": "लोकेशन की इजाज़त बंद है। आगे बढ़ने के लिए सेटिंग खोलकर इसे चालू करें।",
         "goToSettings": "सेटिंग में जाएं",
-        "backgroundRationaleTitle": "Alvora Navigator को आपकी लोकेशन इस्तेमाल करने की इजाज़त दें",
+        "backgroundRationaleTitle": "Alvora Vector को आपकी लोकेशन इस्तेमाल करने की इजाज़त दें",
         "allow": "इजाज़त दें",
         "deny": "मना करें"
     },
@@ -385,7 +385,7 @@
     "CreateChatChannelScreen": {
         "channelNameRequired": "चैट का नाम ज़रूरी है।",
         "channelCreated": "नई चैट बन गई: {{channelName}}",
-        "unselect": "हटाएं",
+        "unselect": "न चुनें",
         "createNewChat": "नई चैट बनाएं",
         "channelName": "चैट का नाम",
         "inputChannelName": "चैट का नाम लिखें...",
@@ -505,7 +505,10 @@
         "meters": "{{count}} मीटर",
         "kilometers": "{{count}} किमी",
         "miles": "{{count}} मील",
-        "hoursShort": "{{count}} घंटे",
+        "hoursShort": {
+            "one": "{{count}} घंटा",
+            "other": "{{count}} घंटे"
+        },
         "minutesShort": "{{count}} मिनट",
         "secondsShort": "{{count}} सेकंड",
         "bytes": "बाइट",
@@ -513,5 +516,20 @@
         "minuteAgo": "{{count}} मिनट पहले",
         "minutesAgo": "{{count}} मिनट पहले",
         "yesterday": "कल"
+    },
+    "InstanceLinkScreen": {
+        "connectionConfig": "कनेक्शन सेटिंग",
+        "saved": "कनेक्शन की सेटिंग सेव हो गई।",
+        "reset": "कनेक्शन की सेटिंग रीसेट हो गई।",
+        "fleetbaseHost": "सर्वर होस्ट",
+        "fleetbaseKey": "सर्वर की API Key",
+        "socketClusterHost": "SocketCluster होस्ट",
+        "socketClusterPort": "SocketCluster पोर्ट",
+        "socketClusterSecure": "SocketCluster सिक्योर",
+        "saveChanges": "बदलाव सेव करें",
+        "inputFleetbaseHost": "सर्वर का होस्ट लिखें...",
+        "inputFleetbaseKey": "सर्वर की API Key लिखें...",
+        "inputSocketClusterHost": "SocketCluster का होस्ट लिखें...",
+        "inputSocketClusterPort": "SocketCluster का पोर्ट लिखें..."
     }
 }
