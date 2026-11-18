@@ -1,0 +1,517 @@
+{
+    "common": {
+        "fleetbase": "Alvora Vector",
+        "navigator": "Alvora Navigator",
+        "apiKey": "API Key",
+        "cancel": "रद्द करें",
+        "new": "नया",
+        "create": "बनाएं",
+        "save": "सेव करें",
+        "delete": "हटाएं",
+        "edit": "बदलें",
+        "update": "अपडेट करें",
+        "service": "सर्विस",
+        "retry": "फिर से कोशिश करें",
+        "loading": "लोड हो रहा है...",
+        "confirm": "पक्का करें",
+        "confirmation": "पुष्टि",
+        "ok": "ठीक है",
+        "done": "हो गया",
+        "tryAgain": "फिर से कोशिश करें",
+        "accept": "स्वीकार करें",
+        "continue": "आगे बढ़ें",
+        "yes": "हां",
+        "no": "नहीं",
+        "close": "बंद करें",
+        "select": "चुनें",
+        "reset": "रीसेट करें",
+        "remove": "हटाएं",
+        "notAvailable": "उपलब्ध नहीं",
+        "optional": "वैकल्पिक",
+        "chooseAnOption": "एक विकल्प चुनें"
+    },
+    "orderStatuses": {
+        "created": "ऑर्डर बना",
+        "preparing": "तैयार हो रहा है",
+        "dispatched": "भेज दिया गया",
+        "driver_enroute": "राइडर रास्ते में है",
+        "pending": "बाकी है",
+        "in_progress": "चल रहा है",
+        "completed": "पूरा हुआ"
+    },
+    "BootScreen": {
+        "missingRequiredConfigurationKeys": "ज़रूरी सेटिंग नहीं मिलीं"
+    },
+    "AccountScreen": {
+        "changeProfilePhotoOptions": {
+            "takePhoto": "फोटो खींचें",
+            "photoLibrary": "गैलरी से चुनें",
+            "deleteProfilePhoto": "प्रोफाइल फोटो हटाएं"
+        },
+        "profilePhoto": "प्रोफाइल फोटो",
+        "email": "ईमेल",
+        "phoneNumber": "फोन नंबर",
+        "name": "नाम",
+        "language": "भाषा",
+        "theme": "थीम",
+        "deleteAccount": "अकाउंट हटाएं",
+        "termsOfService": "सेवा की शर्तें",
+        "privacyPolicy": "प्राइवेसी पॉलिसी",
+        "tracking": "ट्रैकिंग",
+        "account": "अकाउंट",
+        "dataProtection": "डेटा की सुरक्षा",
+        "clearCache": "कैश साफ करें",
+        "signOut": "साइन आउट करें",
+        "signedOut": "साइन आउट हो गए।",
+        "cacheCleared": "कैश साफ हो गया।",
+        "schemeChanged": "अब {{selectedScheme}} मोड चालू है।",
+        "languageChanged": "अब {{selectedLanguage}} भाषा चालू है।",
+        "photoChanged": "प्रोफाइल फोटो बदल गई।",
+        "photoRemoved": "प्रोफाइल फोटो हटा दी गई।"
+    },
+    "ProfileScreen": {
+        "organizationChanged": "अब {{selectedOrganization}} कंपनी में हैं।",
+        "organization": "कंपनी"
+    },
+    "AddNewLocationScreen": {
+        "addNewAddress": "नया पता जोड़ें",
+        "streetName": "गली का नाम और नंबर",
+        "weThinkYoureAroundHere": "हमें लगता है आप यहीं आसपास हैं",
+        "cantFindYourAddress": "अपना पता नहीं मिल रहा?",
+        "useMapInstead": "इसके बजाय मैप से चुनें"
+    },
+    "SetupWarningScreen": {
+        "configurationMissing": "सेटिंग पूरी नहीं है!",
+        "unconfiguredApp": "लगता है ऐप की सेटिंग ठीक से नहीं हुई है।",
+        "envMissing": "सेटिंग में नहीं मिला!"
+    },
+    "DriverReportScreen": {
+        "issues": "समस्याएं",
+        "issue": "समस्या",
+        "fuelReports": "फ्यूल रिपोर्ट",
+        "fuelReport": "फ्यूल रिपोर्ट",
+        "noItems": "कोई {{label}} नहीं",
+        "createNew": "नई {{label}} बनाएं",
+        "issueOn": "समस्या की तारीख:",
+        "fuelReported": "फ्यूल की रिपोर्ट की तारीख:",
+        "status": "स्थिति:",
+        "priority": "प्राथमिकता:",
+        "report": "विवरण:",
+        "type": "प्रकार:",
+        "category": "श्रेणी:",
+        "vehicle": "गाड़ी:",
+        "reporter": "रिपोर्ट करने वाला:",
+        "odometer": "ओडोमीटर:",
+        "volume": "मात्रा:",
+        "cost": "खर्च:"
+    },
+    "LocationPermissionScreen": {
+        "enableLocationServices": "लोकेशन की जानकारी",
+        "enableLocationPrompt": "Alvora Navigator आपकी सही लोकेशन लेता है, ताकि आपकी कंपनी के डिस्पैचर और टीम ऑर्डर की प्रगति और आपकी लोकेशन देख सकें। ऐप बंद होने पर या इस्तेमाल में न होने पर भी लोकेशन ली जाती है। जब तक आप ऑनलाइन हैं तब तक लोकेशन ली जाती है और सुरक्षित तरीके से Alvora Vector को भेजी जाती है।",
+        "shareAndContinue": "लोकेशन की इजाज़त दें और आगे बढ़ें",
+        "privacyPolicy": "प्राइवेसी पॉलिसी",
+        "permissionNeededTitle": "लोकेशन की इजाज़त चाहिए",
+        "enableInSettingsTitle": "सेटिंग में लोकेशन चालू करें",
+        "permissionDeniedPrompt": "साइन इन करने से पहले लोकेशन की इजाज़त ज़रूरी है। क्या आप अभी इजाज़त देना चाहते हैं?",
+        "locationBlockedPrompt": "लोकेशन की इजाज़त बंद है। आगे बढ़ने के लिए सेटिंग खोलकर इसे चालू करें।",
+        "goToSettings": "सेटिंग में जाएं",
+        "backgroundRationaleTitle": "Alvora Navigator को आपकी लोकेशन इस्तेमाल करने की इजाज़त दें",
+        "allow": "इजाज़त दें",
+        "deny": "मना करें"
+    },
+    "AdhocOrder": {
+        "acceptTitle": "खुला ऑर्डर लें?",
+        "acceptMessage": "यह खुला ऑर्डर लेने पर यह आपके नाम हो जाएगा और ऑर्डर तुरंत शुरू हो जाएगा।",
+        "dismissTitle": "खुला ऑर्डर हटाएं?",
+        "dismissMessage": "इस खुले ऑर्डर को हटाने के बाद यह उपलब्ध ऑर्डर में नहीं दिखेगा।",
+        "acceptOrder": "ऑर्डर लें",
+        "dismissOrder": "ऑर्डर हटाएं"
+    },
+    "AdhocOrderCard": {
+        "acceptingAndAssigning": "ऑर्डर लिया जा रहा है और आपके नाम किया जा रहा है...",
+        "orderAvailableNearby": "पास में ऑर्डर उपलब्ध है: {{distance}}",
+        "away": "{{distance}} दूर",
+        "pickupDestination": "पिकअप की जगह"
+    },
+    "OrderScreen": {
+        "waypointCompleted": "स्टॉप पूरा हुआ",
+        "waypointCompletedMessage": "{{previousDestination}} पर स्टॉप का काम पूरा हुआ। अब आपकी मौजूदा मंज़िल {{currentDestination}} है। आप \"मौजूदा मंज़िल\" बटन दबाकर कभी भी मंज़िल बदल सकते हैं।",
+        "notDispatchedTitle": "ऑर्डर अभी भेजा नहीं गया",
+        "notDispatchedWarning": "चेतावनी!",
+        "notDispatchedMessage": "यह ऑर्डर अभी भेजा नहीं गया है। क्या आप आगे बढ़ना चाहते हैं?",
+        "updatingActivity": "काम अपडेट हो रहा है: {{status}}",
+        "orderStatusUpdated": "ऑर्डर की स्थिति अपडेट हुई: {{status}}",
+        "startOrder": "ऑर्डर शुरू करें",
+        "updateActivity": "काम अपडेट करें",
+        "startNavigation": "नेविगेशन शुरू करें",
+        "orderInformation": "ऑर्डर की जानकारी",
+        "orderRoute": "ऑर्डर का रास्ता",
+        "orderProgress": "ऑर्डर कहां तक पहुंचा",
+        "orderNotes": "ऑर्डर के नोट",
+        "orderProof": "ऑर्डर का सबूत",
+        "orderPayload": "ऑर्डर का सामान",
+        "customer": "ग्राहक",
+        "orderDocumentsAndFiles": "ऑर्डर के दस्तावेज़ और फाइलें",
+        "orderComments": "ऑर्डर पर कमेंट",
+        "id": "आईडी",
+        "internalId": "अंदरूनी आईडी",
+        "trackingNumber": "ट्रैकिंग नंबर",
+        "proofOfDelivery": "डिलीवरी का सबूत",
+        "type": "प्रकार",
+        "dateCreated": "बनने की तारीख",
+        "dateScheduled": "तय की गई तारीख",
+        "dateDispatched": "भेजने की तारीख",
+        "currentDestination": "मौजूदा मंज़िल",
+        "nextDestination": "अगली मंज़िल",
+        "totalDistance": "कुल दूरी",
+        "startTime": "शुरू होने का समय",
+        "currentEta": "पहुंचने का अनुमानित समय",
+        "ect": "पूरा होने का अनुमानित समय"
+    },
+    "EditLocationScreen": {
+        "addressSaved": "पता सेव हो गया।",
+        "defaultLocationSet": "{{name}} अब आपकी डिफ़ॉल्ट जगह है।",
+        "addressDeleted": "{{name}} हटा दिया गया।",
+        "unableToSelectLocationType": "जगह का प्रकार नहीं चुना जा सका।",
+        "locationTypes": {
+            "apartment": "अपार्टमेंट",
+            "house": "घर",
+            "office": "ऑफिस",
+            "hotel": "होटल",
+            "hospital": "अस्पताल",
+            "school": "स्कूल",
+            "other": "दूसरा"
+        },
+        "address": "पता",
+        "locationType": "जगह का प्रकार",
+        "addressDetails": "पते की जानकारी",
+        "addAdditionalAddressDetails": "पते की और जानकारी जोड़ें।",
+        "addressLabelOrName": "पते का नाम",
+        "streetAddressOrPoBox": "गली का पता या पोस्ट बॉक्स",
+        "aptSuiteEtc": "फ्लैट, यूनिट, बिल्डिंग, मंज़िल आदि",
+        "neighborhood": "मोहल्ला",
+        "cityOrTown": "शहर या कस्बा",
+        "postalOrZipCode": "पिन कोड",
+        "additionalInstructions": "कूरियर के लिए ज़रूरी बातें",
+        "whereShouldWeMeetYou": "हम आपसे ठीक कहां मिलें?",
+        "makeDefaultAddress": "डिफ़ॉल्ट पता बनाएं",
+        "deleteAddress": "पता हटाएं",
+        "saveAddress": "पता सेव करें"
+    },
+    "CameraCapture": {
+        "photoCaptured": "फोटो खींच ली गई।",
+        "photosAddedFromGallery": {
+            "one": "गैलरी से {{count}} फोटो जोड़ी गई।",
+            "other": "गैलरी से {{count}} फोटो जोड़ी गईं।"
+        },
+        "unableToSelectPhotosWithCode": "फोटो नहीं चुनी जा सकीं ({{code}})।",
+        "unableToSelectPhotos": "फोटो नहीं चुनी जा सकीं।",
+        "loadingCamera": "कैमरा लोड हो रहा है या इजाज़त का इंतज़ार है...",
+        "gallery": "गैलरी",
+        "snap": "खींचें",
+        "photosCount": "{{count}} फोटो"
+    },
+    "ChatKeyboard": {
+        "typeAMessage": "मैसेज लिखें"
+    },
+    "ChatMessage": {
+        "sending": "भेज रहे हैं..."
+    },
+    "ChatParticipants": {
+        "noParticipants": "कोई सदस्य नहीं"
+    },
+    "Comment": {
+        "deleteComment": "कमेंट हटाएं",
+        "confirmDeleteComment": "क्या आप यह कमेंट हटाना चाहते हैं?",
+        "reply": "जवाब दें",
+        "writeAReply": "जवाब लिखें...",
+        "publishReply": "जवाब भेजें"
+    },
+    "CommentThread": {
+        "invalidComment": "कमेंट सही नहीं है",
+        "commentTooShort": "कमेंट में कम से कम 2 अक्षर होने चाहिए।",
+        "writeAComment": "कमेंट लिखें...",
+        "publishComment": "कमेंट भेजें",
+        "currentUser": "मौजूदा यूज़र"
+    },
+    "CurrentDestinationSelect": {
+        "currentDestination": "मौजूदा मंज़िल",
+        "id": "आईडी: {{id}}",
+        "selectDestination": "मंज़िल चुनें",
+        "destinationMarker": "(मंज़िल)"
+    },
+    "DestinationChangedAlert": {
+        "waypointCompleted": "स्टॉप पूरा हुआ",
+        "activityComplete": "स्टॉप {{address}} का काम पूरा हो गया है।",
+        "destinationChanged": "आपकी मौजूदा मंज़िल बदलकर {{address}} हो गई है।"
+    },
+    "DriverOnlineToggle": {
+        "online": "ऑनलाइन",
+        "offline": "ऑफलाइन"
+    },
+    "FuelReportForm": {
+        "publishFuelReport": "फ्यूल रिपोर्ट जमा करें",
+        "status": "स्थिति",
+        "selectFuelReportStatus": "फ्यूल रिपोर्ट की स्थिति चुनें",
+        "odometer": "ओडोमीटर",
+        "inputOdometer": "अभी का ओडोमीटर लिखें...",
+        "volume": "मात्रा",
+        "inputFuelVolume": "फ्यूल की मात्रा लिखें...",
+        "cost": "खर्च",
+        "inputFuelCosts": "फ्यूल का खर्च लिखें..."
+    },
+    "IssueForm": {
+        "publishIssue": "समस्या जमा करें",
+        "issueType": "समस्या का प्रकार",
+        "selectIssueType": "समस्या का प्रकार चुनें",
+        "issueCategory": "समस्या की श्रेणी",
+        "selectIssueCategory": "समस्या की श्रेणी चुनें",
+        "issuePriority": "समस्या की प्राथमिकता",
+        "selectIssuePriority": "समस्या की प्राथमिकता चुनें",
+        "issueStatus": "समस्या की स्थिति",
+        "selectIssueStatus": "समस्या की स्थिति चुनें",
+        "issueReport": "समस्या का विवरण",
+        "typeYourIssueReport": "अपनी समस्या लिखें..."
+    },
+    "EditFuelReportScreen": {
+        "updateFuelReport": "फ्यूल रिपोर्ट अपडेट करें"
+    },
+    "EditIssueScreen": {
+        "saveIssue": "समस्या सेव करें"
+    },
+    "BottomSheetSelect": {
+        "searchOptions": "विकल्प खोजें",
+        "selectAnOption": "एक विकल्प चुनें"
+    },
+    "MoneyInput": {
+        "inputAmount": "रकम लिखें",
+        "searchCurrencies": "करेंसी खोजें"
+    },
+    "UnitInput": {
+        "inputVolume": "मात्रा लिखें",
+        "searchUnit": "इकाई खोजें"
+    },
+    "PhoneInput": {
+        "enterPhoneNumber": "फोन नंबर लिखें",
+        "searchCountry": "देश खोजें"
+    },
+    "ExpandableSelect": {
+        "selectOption": "{{title}} चुनें",
+        "toggleOptions": "विकल्प खोलें या बंद करें"
+    },
+    "AlertPromptBox": {
+        "confirmMessage": "क्या आप आगे बढ़ना चाहते हैं?"
+    },
+    "SafeSpinner": {
+        "loading": "लोड हो रहा है"
+    },
+    "QrCodeScanner": {
+        "noCameraAvailable": "कैमरा उपलब्ध नहीं है"
+    },
+    "LocationPicker": {
+        "addNewLocation": "नई जगह जोड़ें"
+    },
+    "MultipleCustomerAvatars": {
+        "noCustomers": "कोई ग्राहक नहीं"
+    },
+    "OrderActivitySelect": {
+        "requiresProofOfDelivery": "डिलीवरी का सबूत ज़रूरी है",
+        "selectActivity": "काम चुनें",
+        "updatingActivityFor": "इस जगह का काम अपडेट हो रहा है:"
+    },
+    "OrderCard": {
+        "customers": "ग्राहक:",
+        "customer": "ग्राहक:",
+        "dateScheduled": "तय की गई तारीख:",
+        "podRequired": "डिलीवरी सबूत ज़रूरी:",
+        "dispatchedAt": "भेजने का समय:",
+        "eta": "पहुंचने का समय:",
+        "ect": "पूरा होने का समय:"
+    },
+    "OrderCustomerCard": {
+        "call": "कॉल करें",
+        "email": "ईमेल करें",
+        "chat": "चैट करें"
+    },
+    "OrderDocumentFiles": {
+        "downloadComplete": "डाउनलोड पूरा हुआ",
+        "imageSaved": "फोटो आपकी गैलरी में सेव हो गई।",
+        "downloadFailed": "डाउनलोड नहीं हो सका",
+        "statusCode": "स्टेटस कोड: {{statusCode}}",
+        "error": "गड़बड़ी",
+        "downloadError": "फाइल डाउनलोड करते समय गड़बड़ी हुई।",
+        "noDocumentsOrFiles": "कोई दस्तावेज़ या फाइल नहीं है।",
+        "view": "देखें",
+        "download": "डाउनलोड करें"
+    },
+    "OrderPayloadEntities": {
+        "emptyPayload": "कोई सामान नहीं है।"
+    },
+    "OrderProofOfDelivery": {
+        "noProofCaptured": "डिलीवरी का कोई सबूत नहीं लिया गया।"
+    },
+    "OrderTotal": {
+        "subtotal": "सबटोटल",
+        "deliveryFee": "डिलीवरी शुल्क",
+        "deliveryTip": "डिलीवरी टिप",
+        "tip": "टिप",
+        "total": "कुल"
+    },
+    "OrderWaypointList": {
+        "tapToExpand": "खोलने के लिए दबाएं",
+        "tapToCollapse": "बंद करने के लिए दबाएं",
+        "moreWaypoints": "{{count}} और स्टॉप"
+    },
+    "PastOrderCard": {
+        "currentDestination": "मौजूदा मंज़िल"
+    },
+    "Buttons": {
+        "continueWithPhone": "फोन नंबर से आगे बढ़ें"
+    },
+    "InstanceLinkHandler": {
+        "success": "इंस्टेंस लिंक जुड़ गया!"
+    },
+    "ChatHomeScreen": {
+        "noMessages": "कोई मैसेज नहीं",
+        "chats": "चैट"
+    },
+    "ChatParticipantsScreen": {
+        "confirmRemoveParticipant": "क्या आप इस सदस्य को चैट से हटाना चाहते हैं?",
+        "removeParticipant": "सदस्य हटाएं",
+        "participants": "सदस्य",
+        "addParticipant": "सदस्य जोड़ें",
+        "selectParticipant": "सदस्य चुनें"
+    },
+    "CreateChatChannelScreen": {
+        "channelNameRequired": "चैट का नाम ज़रूरी है।",
+        "channelCreated": "नई चैट बन गई: {{channelName}}",
+        "unselect": "हटाएं",
+        "createNewChat": "नई चैट बनाएं",
+        "channelName": "चैट का नाम",
+        "inputChannelName": "चैट का नाम लिखें...",
+        "selectParticipants": "सदस्य चुनें:"
+    },
+    "PhoneLoginScreen": {
+        "invalidPhoneNumber": "फोन नंबर सही नहीं है।",
+        "loginViaSms": "एसएमएस से लॉगिन करें",
+        "sendVerificationCode": "वेरिफिकेशन कोड भेजें",
+        "home": "होम"
+    },
+    "CreateAccountScreen": {
+        "invalidPhoneNumber": "फोन नंबर सही नहीं है।",
+        "createAccount": "अकाउंट बनाएं",
+        "enterYourName": "अपना नाम लिखें",
+        "sendVerificationCode": "वेरिफिकेशन कोड भेजें",
+        "haveAnAccountAlready": "पहले से अकाउंट है? लॉगिन करें"
+    },
+    "CreateAccountVerifyScreen": {
+        "codeSentTo": "कोड {{phone}} पर भेजा गया",
+        "verifyCode": "कोड जांचें"
+    },
+    "PhoneLoginVerifyScreen": {
+        "codeSentTo": "कोड {{phone}} पर भेजा गया",
+        "verifyCode": "कोड जांचें",
+        "unableToSendSms": "एसएमएस नहीं भेजा जा सका।",
+        "codeSentVia": "आपका वेरिफिकेशन कोड {{method}} से भेजा गया है।"
+    },
+    "LoginScreen": {
+        "loggedInWith": "{{provider}} से लॉगिन हो गया"
+    },
+    "EditAccountPropertyScreen": {
+        "changesSaved": "{{name}} में बदलाव सेव हो गए।"
+    },
+    "EditLocationCoordScreen": {
+        "savePosition": "जगह सेव करें"
+    },
+    "EntityScreen": {
+        "details": "जानकारी",
+        "id": "आईडी",
+        "internalId": "अंदरूनी आईडी",
+        "trackingNumber": "ट्रैकिंग नंबर",
+        "sku": "एसकेयू",
+        "type": "प्रकार",
+        "dimensions": "माप (लंबाई x चौड़ाई x ऊंचाई)",
+        "weight": "वज़न"
+    },
+    "DriverDashboardScreen": {
+        "tracking": "ट्रैकिंग:",
+        "location": "लोकेशन:",
+        "activeOrders": "चालू ऑर्डर",
+        "speed": "रफ्तार"
+    },
+    "DriverOrderManagementScreen": {
+        "activeOrdersCount": "चालू ऑर्डर: {{count}}",
+        "noCurrentOrdersFor": "{{date}} के लिए कोई ऑर्डर नहीं",
+        "dayOrders": "{{day}} के ऑर्डर",
+        "orderCountOne": "{{count}} ऑर्डर",
+        "orderCountMany": "{{count}} ऑर्डर",
+        "stopsLeftOne": "{{count}} स्टॉप बाकी",
+        "stopsLeftMany": "{{count}} स्टॉप बाकी"
+    },
+    "IssueScreen": {
+        "confirmDeletion": "हटाने की पुष्टि करें",
+        "confirmDeleteIssue": "क्या आप यह समस्या हटाना चाहते हैं?",
+        "deleteIssue": "समस्या हटाएं",
+        "deletingIssue": "समस्या हटाई जा रही है...",
+        "type": "प्रकार:",
+        "category": "श्रेणी:",
+        "vehicle": "गाड़ी:",
+        "priority": "प्राथमिकता:",
+        "status": "स्थिति:",
+        "report": "विवरण:",
+        "reportLocation": "रिपोर्ट की जगह:"
+    },
+    "FuelReportScreen": {
+        "confirmDeletion": "हटाने की पुष्टि करें",
+        "confirmDeleteFuelReport": "क्या आप यह फ्यूल रिपोर्ट हटाना चाहते हैं?",
+        "deleteFuelReport": "फ्यूल रिपोर्ट हटाएं",
+        "deletingFuelReport": "फ्यूल रिपोर्ट हटाई जा रही है...",
+        "odometer": "ओडोमीटर:",
+        "volume": "मात्रा:",
+        "vehicle": "गाड़ी:",
+        "cost": "खर्च:",
+        "status": "स्थिति:",
+        "reportLocation": "रिपोर्ट की जगह:"
+    },
+    "DriverNavigator": {
+        "dash": "डैशबोर्ड",
+        "orders": "ऑर्डर",
+        "reports": "रिपोर्ट",
+        "chat": "चैट",
+        "createFuelReport": "नई फ्यूल रिपोर्ट बनाएं",
+        "createIssue": "नई समस्या दर्ज करें",
+        "editFuelReportFrom": "{{date}} की फ्यूल रिपोर्ट बदलें",
+        "editIssueFrom": "{{date}} की समस्या बदलें"
+    },
+    "OrderStack": {
+        "orderHistory": "पुराने ऑर्डर"
+    },
+    "LocationContext": {
+        "driverLocation": "राइडर की लोकेशन"
+    },
+    "useOAuth": {
+        "appleSignInNotSupported": "इस फोन पर Apple से साइन इन नहीं हो सकता",
+        "appleSignInMissingToken": "Apple से साइन इन नहीं हो सका: टोकन या अनुमति कोड नहीं मिला।"
+    },
+    "ProofOfDeliveryScreen": {
+        "capturingProof": "डिलीवरी का सबूत लिया जा रहा है...",
+        "unableToValidateQrCode": "स्कैन किया गया क्यूआर कोड जांचा नहीं जा सका।",
+        "unableToSaveSignature": "दस्तखत सेव करते समय कुछ गड़बड़ हुई।",
+        "unableToUploadPhotos": "खींची गई फोटो अपलोड नहीं हो सकीं।",
+        "clear": "मिटाएं",
+        "signAbove": "ऊपर दस्तखत करें"
+    },
+    "Format": {
+        "meters": "{{count}} मीटर",
+        "kilometers": "{{count}} किमी",
+        "miles": "{{count}} मील",
+        "hoursShort": "{{count}} घंटे",
+        "minutesShort": "{{count}} मिनट",
+        "secondsShort": "{{count}} सेकंड",
+        "bytes": "बाइट",
+        "justNow": "अभी",
+        "minuteAgo": "{{count}} मिनट पहले",
+        "minutesAgo": "{{count}} मिनट पहले",
+        "yesterday": "कल"
+    }
+}
